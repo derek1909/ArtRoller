@@ -16,7 +16,7 @@ BLEIntCharacteristic rotationCountCharacteristic(rotationCountCharacteristicUuid
 int rotationCount = 0; // Rotation counter, 1 count = half circle!
 
 // Set sensor and joystick pins
-const int sensorA = 14;
+const int sensorA = 17;
 const int sensorB = 16;
 const int joystickXPin = A6;
 const int joystickYPin = A5;
